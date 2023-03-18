@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <div class="audio">
+            <div>
+                <img src="" alt="">
+            </div>
+
+            <div>
+                <audio controls src=""></audio>
+                <div>Control <input id="controlInput" type="range"></div>
+                <div class="buttonsControl">
+                    <button onclick="playAudio()" id="playBtn">Play</button>
+                    <button onclick="pauseAudio()" id="pauseBtn">Pause</button>
+                    <button onclick="stopAudio()" id="stopBtn">Stop</button>
+                    <button onclick="muteAudio()" id="muteBtn">Mute</button>
+                </div>
+                <div>Volume <input id="volumeInput" type="range" min="0" max="1" step="0.1"></div>
+            </div>
+        </div>
+
+
+        <div class="songs">
+
+            <div>
+                <button class="btn1">
+                    Billie Eilish, Khalid - lovely
+                </button>
+            </div>
+            <div>
+                <button class="btn2">
+                    Indila - Dernière Danse
+                </button>
+            </div>
+            <div>
+                <button class="btn3">
+                    TheWeeknd - Call Out My Name
+                </button>
+            </div>
+            <div>
+                <button class="btn4">
+                    Lana Del Rey - Lust For Life
+                </button>
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

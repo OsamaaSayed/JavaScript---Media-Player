@@ -84,6 +84,7 @@ function stopAudio() {
 
     audio.load();
     audio.pause();
+    controlInput.valueAsNumber = audio.currentTime;
 
 }
 
